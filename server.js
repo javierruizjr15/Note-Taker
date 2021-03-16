@@ -9,4 +9,5 @@ app.use(express.json())
 
 app.use(require('./routes'))
 
+// process.env.PORT makes it avail through heroku
 app.listen(process.env.PORT || 3000)

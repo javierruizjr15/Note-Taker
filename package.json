@@ -1,24 +1,25 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "## Description",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/javierruizjr15/note-taker.git"
+    "url": "git+https://github.com/QFults/note-taker.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/javierruizjr15/note-taker/issues"
+    "url": "https://github.com/QFults/note-taker/issues"
   },
-  "homepage": "https://github.com/javierruizjr15/note-taker#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "fs": "0.0.1-security"
-  }
+  "homepage": "https://github.com/QFults/note-taker#readme"
 }

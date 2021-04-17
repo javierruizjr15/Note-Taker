@@ -1,7 +1,6 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "## Description",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,16 +9,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.16.4",
     "uuid": "^8.3.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/QFults/note-taker.git"
+    "url": "git+https://github.com/josephmnielsen/noteTaker.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/QFults/note-taker/issues"
+    "url": "https://github.com/josephmnielsen/noteTaker/issues"
   },
-  "homepage": "https://github.com/QFults/note-taker#readme"
+  "homepage": "https://github.com/josephmnielsen/noteTaker#readme",
+  "description": ""
 }
